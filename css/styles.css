@@ -1,0 +1,116 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+	font-weight: 300;
+	line-height: 1.2em;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.text-muted {
+	color: #BCBBBB;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 40px;
+}
+
+.header-text{
+	width: 80%;
+	text-align: right;
+	margin-top: 15px;
+	float: right;
+
+}
+
+.title-logo {
+	max-width: 100px;
+    max-height: 100px;
+    margin-top: 10px;
+    width: 20%;
+}
+
+@media screen and (max-width: 450px) {
+	.header-container {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
+	}
+	.title-logo {
+		width: 100%;
+	}
+	.header-text {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+.hero-image {
+	max-width: 1110px;
+    max-height: 600px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.project-image {
+	width: 100%;
+	height: 250px;
+	box-shadow: 0 0 10px 5px rgba(153,153,153,0.5);
+	border-radius: 5px;
+}
+
+.project-container {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+	width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+	.module1 {
+		width: 47%;
+	}
+	.module2 {
+		width: 47%;
+	}
+	.module3 {
+		width: 47%;
+	}
+}
+
+@media screen and (min-width: 770px) {
+	.module1 {
+		width: 30%;
+	}
+	.module2 {
+		width: 30%;
+	}
+	.module3 {
+		width: 30%;
+	}
+}
+
+div {
+	display: block;
+}
+
+hr {
+	margin-bottom: 1.2em;
+}
+
+h2 {
+	margin: 1em 0;
+}
+
+h3 {
+	margin-top: 0.7em;
+}
+
